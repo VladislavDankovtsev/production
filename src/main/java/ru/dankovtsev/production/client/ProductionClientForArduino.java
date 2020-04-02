@@ -18,8 +18,8 @@ public class ProductionClientForArduino {
     private UUIDRandom uuidRandom;
 
     public Production onlineProduction(){
-    RestTemplate restTemplate = new RestTemplate();
-    ResponseEntity<Production> responseEntity = restTemplate.getForEntity(URL_PRODUCTION_ONLINE,
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<Production> responseEntity = restTemplate.getForEntity(URL_PRODUCTION_ONLINE,
             Production.class);
         responseEntity.getBody().setId(uuidRandom.randomkey());
         responseEntity.getBody().setTime(LocalDateTime.now());

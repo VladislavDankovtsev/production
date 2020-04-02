@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0855487-83f1-462f-958f-d644bece74fc" name="Default Changelist" comment="" />
+    <list default="true" id="b0855487-83f1-462f-958f-d644bece74fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/model/CheckConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/client/ProductionClientForArduino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/client/ProductionClientForArduino.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/controller/ProductionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/controller/ProductionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/service/ProductionServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/service/ProductionServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/production/controller/ProductionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dankovtsev/production/controller/ProductionController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +23,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -33,14 +45,15 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ru.dankovtsev.production.other" />
       <recent name="ru.dankovtsev.production.model" />
+      <recent name="ru.dankovtsev.production.other" />
       <recent name="ru.dankovtsev.production.uuid" />
       <recent name="ru.dankovtsev.production" />
     </key>
@@ -79,6 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585647830715</updated>
       <workItem from="1585647834991" duration="3818000" />
+      <workItem from="1585658918996" duration="2963000" />
+      <workItem from="1585827384893" duration="780000" />
     </task>
     <servers />
   </component>
@@ -90,37 +105,41 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="794" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585649366813" />
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom" timestamp="1585651750788">
+    <state x="304" y="0" key="CommitChangelistDialog2" timestamp="1585828231887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585651750788" />
-    <state width="1323" height="220" key="GridCell.Tab.0.center" timestamp="1585651750787">
+    <state x="304" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585828231887" />
+    <state width="1323" height="278" key="GridCell.Tab.0.bottom" timestamp="1585828203241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585651750787" />
-    <state width="1323" height="220" key="GridCell.Tab.0.left" timestamp="1585651750787">
+    <state width="1323" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585828203241" />
+    <state width="1323" height="278" key="GridCell.Tab.0.center" timestamp="1585828203241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585651750787" />
-    <state width="1323" height="220" key="GridCell.Tab.0.right" timestamp="1585651750787">
+    <state width="1323" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585828203241" />
+    <state width="1323" height="278" key="GridCell.Tab.0.left" timestamp="1585828203241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585651750787" />
-    <state width="1323" height="220" key="GridCell.Tab.1.bottom" timestamp="1585651750788">
+    <state width="1323" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585828203241" />
+    <state width="1323" height="278" key="GridCell.Tab.0.right" timestamp="1585828203241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585651750788" />
-    <state width="1323" height="220" key="GridCell.Tab.1.center" timestamp="1585651750788">
+    <state width="1323" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585828203241" />
+    <state width="1323" height="278" key="GridCell.Tab.1.bottom" timestamp="1585828203242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585651750788" />
-    <state width="1323" height="220" key="GridCell.Tab.1.left" timestamp="1585651750788">
+    <state width="1323" height="278" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585828203242" />
+    <state width="1323" height="278" key="GridCell.Tab.1.center" timestamp="1585828203242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585651750788" />
-    <state width="1323" height="220" key="GridCell.Tab.1.right" timestamp="1585651750788">
+    <state width="1323" height="278" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585828203242" />
+    <state width="1323" height="278" key="GridCell.Tab.1.left" timestamp="1585828203242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="220" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585651750788" />
+    <state width="1323" height="278" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585828203242" />
+    <state width="1323" height="278" key="GridCell.Tab.1.right" timestamp="1585828203242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="278" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585828203242" />
   </component>
 </project>
