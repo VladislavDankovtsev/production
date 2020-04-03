@@ -15,6 +15,10 @@ public class Production {
     private UUID id;
     @Column(name="created_timestamp", insertable = true, updatable = false)
     private LocalDateTime time;
+    @Column(name="manipulator1")
+    private Integer manipulator1;
+    @Column(name="manipulator2")
+    private Integer manipulator2;
     @Column(name="status")
     private String status;
 
@@ -45,11 +49,29 @@ public class Production {
         this.status = status;
     }
 
+    public Integer getManipulator1() {
+        return manipulator1;
+    }
+
+    public void setManipulator1(Integer manipulator1) {
+        this.manipulator1 = manipulator1;
+    }
+
+    public Integer getManipulator2() {
+        return manipulator2;
+    }
+
+    public void setManipulator2(Integer manipulator2) {
+        this.manipulator2 = manipulator2;
+    }
+
     @Override
     public String toString() {
         return "Production{" +
                 "id=" + id +
                 ", time=" + time +
+                ", manipulator1=" + manipulator1 +
+                ", manipulator2=" + manipulator2 +
                 ", status='" + status + '\'' +
                 '}';
     }

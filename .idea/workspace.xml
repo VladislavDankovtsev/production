@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0855487-83f1-462f-958f-d644bece74fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/model/CheckConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/client/ProductionClientForArduino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/client/ProductionClientForArduino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/controller/ProductionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/controller/ProductionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/service/ProductionServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/service/ProductionServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/production/controller/ProductionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dankovtsev/production/controller/ProductionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/model/Production.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/dankovtsev/production/model/Production.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/dankovtsev/production/service/ProductionServiceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/dankovtsev/production/service/ProductionServiceConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,53 +88,80 @@
       <updated>1585647830715</updated>
       <workItem from="1585647834991" duration="3818000" />
       <workItem from="1585658918996" duration="2963000" />
-      <workItem from="1585827384893" duration="780000" />
+      <workItem from="1585827384893" duration="1026000" />
+      <workItem from="1585918614804" duration="36000" />
+      <workItem from="1585921016505" duration="336000" />
     </task>
+    <task id="LOCAL-00001" summary="проверка соединения с главным сервером">
+      <created>1585828235356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585828235356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="проверка соединения с главным сервером" />
+    <option name="LAST_COMMIT_MESSAGE" value="проверка соединения с главным сервером" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1585649366813">
+    <state x="794" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1585921177782">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="794" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585649366813" />
+    <state x="794" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1585921177782" />
     <state x="304" y="0" key="CommitChangelistDialog2" timestamp="1585828231887">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="304" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585828231887" />
-    <state width="1323" height="278" key="GridCell.Tab.0.bottom" timestamp="1585828203241">
+    <state width="637" height="274" key="GridCell.Tab.0.bottom" timestamp="1585921436894">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585828203241" />
-    <state width="1323" height="278" key="GridCell.Tab.0.center" timestamp="1585828203241">
+    <state width="637" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585921436894" />
+    <state width="637" height="274" key="GridCell.Tab.0.center" timestamp="1585921436894">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585828203241" />
-    <state width="1323" height="278" key="GridCell.Tab.0.left" timestamp="1585828203241">
+    <state width="637" height="274" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585921436894" />
+    <state width="637" height="274" key="GridCell.Tab.0.left" timestamp="1585921436893">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585828203241" />
-    <state width="1323" height="278" key="GridCell.Tab.0.right" timestamp="1585828203241">
+    <state width="637" height="274" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585921436893" />
+    <state width="637" height="274" key="GridCell.Tab.0.right" timestamp="1585921436894">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585828203241" />
-    <state width="1323" height="278" key="GridCell.Tab.1.bottom" timestamp="1585828203242">
+    <state width="637" height="274" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585921436894" />
+    <state width="637" height="274" key="GridCell.Tab.1.bottom" timestamp="1585921436895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585828203242" />
-    <state width="1323" height="278" key="GridCell.Tab.1.center" timestamp="1585828203242">
+    <state width="637" height="274" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585921436895" />
+    <state width="637" height="274" key="GridCell.Tab.1.center" timestamp="1585921436895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585828203242" />
-    <state width="1323" height="278" key="GridCell.Tab.1.left" timestamp="1585828203242">
+    <state width="637" height="274" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585921436895" />
+    <state width="637" height="274" key="GridCell.Tab.1.left" timestamp="1585921436894">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585828203242" />
-    <state width="1323" height="278" key="GridCell.Tab.1.right" timestamp="1585828203242">
+    <state width="637" height="274" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585921436894" />
+    <state width="637" height="274" key="GridCell.Tab.1.right" timestamp="1585921436895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="278" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585828203242" />
+    <state width="637" height="274" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585921436895" />
   </component>
 </project>
