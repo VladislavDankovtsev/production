@@ -24,7 +24,7 @@ public class ProductionServiceConfig {
             if(production!=null){
                 productionRepository.save(production);
             }
-            System.out.println("SAVE "+production.toString());
+            //System.out.println("SAVE "+production.toString());
         }catch(Exception e){
             System.out.println("нет соединения с arduino");
         }
